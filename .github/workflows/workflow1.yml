@@ -1,0 +1,11 @@
+﻿name: Build and Deploy
+on:
+  push:
+    branches:
+      - master
+        
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello build workflow!"
