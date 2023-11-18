@@ -5,9 +5,10 @@ on:
       - master
         
 jobs:
+  call-base-workflow:
+    uses: podkolzzzin/ResusableWorkflows/.github/workflows/base.yml@main
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: echo "Hello build workflow!"
-      - uses: podkolzzzin/ResusableWorkflows/.github/workflows/base.yml@main
