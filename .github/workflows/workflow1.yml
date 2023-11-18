@@ -6,7 +6,7 @@ on:
         
 jobs:
   call-base-workflow:
-    uses: podkolzzzin/ResusableWorkflows/.github/workflows/base.yml@main
+    uses: podkolzzzin/ResusableWorkflows/.github/workflows/base.yml@master
   build:
     runs-on: ubuntu-latest
     steps:
