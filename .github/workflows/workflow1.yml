@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "Hello build workflow!"
-      - uses: ./.github/workflows/base.yml
+      - uses: podkolzzzin/ResusableWorkflows/.github/workflows/base.yml
