@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello build workflow!"
-      - uses: ./.github/workflows/base.yml
+      - uses: .github/workflows/base.yml
